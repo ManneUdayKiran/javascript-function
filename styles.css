@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: #f0f2f5;
+}
+
+.container {
+  background: #fff;
+  padding: 40px;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+#count {
+  font-size: 60px;
+  color: #007bff;
+  margin: 20px 0;
+}
+
+.buttons button {
+  font-size: 18px;
+  margin: 10px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.increment {
+  background-color: #28a745;
+  color: white;
+}
+
+.decrement {
+  background-color: #dc3545;
+  color: white;
+}
+
+.reset {
+  background-color: #ffc107;
+  color: black;
+}
+
+.buttons button:hover {
+  opacity: 0.9;
+}
+/* Add to styles.css */
+
+#count {
+  font-size: 60px;
+  color: #007bff;
+  margin: 20px 0;
+  transition: transform 0.3s ease;
+}
+
+#count.animate {
+  transform: scale(1.2);
+}
+
+.buttons button:active {
+  transform: scale(0.95);
+}
